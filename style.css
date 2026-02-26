@@ -90,8 +90,6 @@ body {
 
 /* Optional: styling for the individual divs */
 .item {
-    background-color: #f1f1f1;
-    border: 1px solid black;
     padding: 20px;
     text-align: center;
 }
