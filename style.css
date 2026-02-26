@@ -75,3 +75,7 @@ body {
     background-color: maroon; /* Use a color name, hex code, RGB, or HSL value */
 }
 
+h3 {
+	margin: 12px;
+}
+
