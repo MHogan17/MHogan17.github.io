@@ -74,3 +74,24 @@ a.button {
 body {
     background-color: maroon; /* Use a color name, hex code, RGB, or HSL value */
 }
+.container {
+    display: grid;
+    /* Defines 2 columns, each taking up an equal fraction of the available space */
+    grid-template-columns: 1fr 1fr; 
+    /* Alternatively, use repeat(3, 1fr) for the same result */
+    
+    /* Sets a gap (gutter) between grid items */
+    gap: 10px; /* shorthand for row-gap and column-gap */
+
+    /* Optional: other styling for visualization */
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Optional: styling for the individual divs */
+.item {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
